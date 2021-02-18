@@ -39,13 +39,13 @@ public class Floppy512 {
     }
 
     public void makeFloppy() {
-        writeFileToFloppy("D:\\MyOS\\code\\ASM\\512\\kernal.bat", false, 1, 2);
+        writeFileToFloppy("D:\\MyOS\\code\\ASM\\5\\kernel.bat", false, 1, 2);
 
         floppyDisk.makeFloppy("system.img");
     }
 
     public static void main(String[] args) {
-        Floppy512 ft = new Floppy512("D:\\MyOS\\code\\ASM\\512\\boot_512.bat");
+        Floppy512 ft = new Floppy512("D:\\MyOS\\code\\ASM\\5\\boot.bat");
         ft.makeFloppy();
     }
 }
