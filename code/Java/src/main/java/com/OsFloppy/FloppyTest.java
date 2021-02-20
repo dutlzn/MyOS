@@ -32,14 +32,14 @@ public class FloppyTest {
     }
 
     public void makeFloppy() {
-        String s = "This is a text from cylinder 1 and sector 2";
-        floppyDisk.writeFloppy(Floppy.MAGNETIC_HEAD.MAGNETIC_HEAD_0, 1, 2, s.getBytes());
+//        String s = "This is a text from cylinder 1 and sector 2";
+//        floppyDisk.writeFloppy(Floppy.MAGNETIC_HEAD.MAGNETIC_HEAD_0, 1, 2, s.getBytes());
 
         floppyDisk.makeFloppy("system.img");
     }
 
     public static void main(String[] args) {
-        FloppyTest ft = new FloppyTest("D:\\MyOS\\code\\ASM\\boot2.bat");
+        FloppyTest ft = new FloppyTest("D:\\MyOS\\code\\ASM\\6\\boot.bat");
         ft.makeFloppy();
     }
 }
