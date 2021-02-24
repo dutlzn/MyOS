@@ -53,7 +53,7 @@ LABEL_BEGIN:
      mov   eax, cr0
      or    eax , 1
      mov   cr0, eax
-
+     ; 真正进入保护模式
      jmp   dword  SelectorCode32: 0
 
      [SECTION .s32]
