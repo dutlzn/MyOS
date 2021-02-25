@@ -24,4 +24,4 @@ fin:
 
   msg:
 
-     DB   "This is Hello World from kernel"
+     DB   "512"
